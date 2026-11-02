@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fortune Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="page-shell">
+      <h1>Fortune Generator</h1>
+
+      <details id="fortune-box" class="fortune-box">
+        <summary id="fortune-toggle">Open the box</summary>
+        <p id="fortune-text"></p>
+      </details>
+
+      <button id="new-fortune" class="new-fortune-button" type="button">Refortune</button>
+
+      <fieldset class="theme-picker">
+        <legend>Theme</legend>
+        <div class="theme-buttons">
+          <button type="button" data-theme="0">Theme 1</button>
+          <button type="button" data-theme="1">Theme 2</button>
+          <button type="button" data-theme="2">Theme 3</button>
+          <button type="button" data-theme="3">Theme 4</button>
+        </div>
+      </fieldset>
+    </main>
+  </body>
+</html>
